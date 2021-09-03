@@ -1,0 +1,10 @@
+ssh-keygen                                              # Генерирую публичный ключь
+ssh-add ~/.ssh/key                                      # Добавляю ключь для ssh агента
+git init
+git remote add origin git@example.com:example/test.git  # Подключаюсь к удаленному репозиторию
+git pull                                                # Загружаю последнюю версию проекта
+git checkout dev                                        # перехожу на ветку dev
+echo "### May be in future" > Readme.md                 # Создаю файл Readme.md 
+git add Readme.md                                       # Индексирую файл
+git commit -m "Added readme"                            # Делаю коммит
+git push origin dev                                  # Передаю изменения на сервер

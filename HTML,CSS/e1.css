@@ -1,0 +1,5 @@
+/* 1. Задать блокам width : 100%; max-width: 20%; display: inline-block;
+2. Использовать table с одной строкой и 5 колонками.
+3. Использовать flex-box для контейнера и задать блокам flex: 1 1 auto;
+4. Использовать grid для контейнера и задать grid-template-columns: repeat(5, 1fr);*/
+
