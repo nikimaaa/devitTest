@@ -34,7 +34,7 @@
   align-self: center;
   justify-self: center;
 } 
-4. Добавив обертку для модального окна, задать модальному окну width и height 100% и добавить внутренние отступы wrapper. Пример:
+4. Добавив обертку для модального окна, задать модальному окну width и height и добавить внутренние отступы wrapper. Пример:
 
 .wrapper{
   position: absolute;
